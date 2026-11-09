@@ -1,0 +1,7 @@
+{
+  // Static one-page site. Deploy: npx wrangler@4.151.1 deploy
+  "name": "technology-educator-alliance",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public" },
+  "routes": [{ "pattern": "mathaiproject.org", "custom_domain": true }]
+}
